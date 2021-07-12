@@ -1,16 +1,16 @@
 {
   "meta": {
-    "title": "DP for your portfolio",
+    "title": "Haneul Lee - Resume",
     "defaultLanguage": "English"
   },
   "aboutMe": {
-    "name": "Min Kyung Kang",
-    "nickName": "nickName!",
-    "profileImg": "../assets/images/me.gif",
-    "email": "mnk918p@gmail.com",
-    "githubUrl": "https://github.com/ddongule",
-    "blogUrl": "https://mingule.tistory.com/",
-    "linkedInUrl": "https://www.linkedin.com/"
+    "name": "Haneul Lee",
+    "nickName": "Front End Developer",
+    "profileImg": "../assets/images/new_me.gif",
+    "email": "lovesky4294@gmail.com",
+    "githubUrl": "https://github.com/haneulee",
+    "blogUrl": "https://blog.haneul-lee.com/",
+    "linkedInUrl": "https://www.linkedin.com/hnlee"
   },
 
   "skillSets": [
@@ -20,7 +20,7 @@
         { "skill": "Javascript", "level": "5" },
         { "skill": "HTML/CSS(SASS)", "level": "5" },
         { "skill": "React", "level": "5" },
-        { "skill": "Typescript", "level": "4" }
+        { "skill": "Typescript", "level": "3" }
       ]
     },
     {
@@ -41,7 +41,7 @@
         { "skill": "Git/Github" },
         { "skill": "Notion" },
         { "skill": "Slack" },
-        { "skill": "Swit" }
+        { "skill": "Figma" }
       ]
     },
     {
@@ -49,7 +49,6 @@
       "skills": [
         { "skill": "Netlify" },
         { "skill": "Heroku" },
-        { "skill": "Pythonanywhere" },
         { "skill": "AWS EC2" },
         { "skill": "AWS Beanstalk" },
         { "skill": "Docker" }
@@ -121,14 +120,9 @@
 
   "educations": [
     {
-      "title": "우아한 대학교 (Woowa University)",
-      "term": "2013.03 - 2017.03",
-      "description": "척척박사 졸업"
-    },
-    {
-      "title": "잠실 고등학교 (Jamsil High School)",
-      "term": "2010.03 - 2013.02",
-      "description": "인문계 졸업"
+      "title": "공주대학교 (Kongju National University)",
+      "term": "2009.03 - 2014.02",
+      "description": "정보통신공학부 전파공학"
     }
   ]
 }

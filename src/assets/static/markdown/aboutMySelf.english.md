@@ -2,7 +2,7 @@
 
 # Hi!
 
-## my Name is **ddongule**
+## my Name is **haneul**
 
 ## I am Software Engineer
 
@@ -10,7 +10,7 @@
 
 <br />
 
-### My Github is .. [www.github.com/ddongule](www.github.com/ddongule)
+### My Github is .. [www.github.com/haneulee](www.github.com/haneulee)
 
 <br />
 
