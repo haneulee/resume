@@ -1,37 +1,23 @@
 <br />
 
-# 안녕하세요!
+# 안녕하세요! 🙂
 
-## 제 이름은 **haneul** 입니다.
-
-## **저는 프론트엔드 개발자 입니다!**
-
-<br />
-
-### 제 Github은 .. [www.github.com/haneulee](www.github.com/haneulee)
-
-<br />
-
-## - +R+빨간 하이라이트+R+
-
-## - +G+초록 하이라이트+G+
-
-## - +B+파란 하이라이트+B+
+## 제 이름은 **하늘** 입니다.
 
 <br /><br />
 
-`React.js`, `HTML/CSS(SASS)`, `Javascript`에 강점이 있습니다.
+## 저는 소프트웨어 개발자이고,
 
-& 흑백 체크리스트
+## +B+프론트 엔드+B+ 개발을 주로 합니다.
 
-- 색이 있는 체크리스트
+<br /><br />
 
-<br />
-
-1. 순서가 있는 리스트
-2. 순서가 있는 리스트
-3. 순서가 있는 리스트
-4. 순서가 있는 리스트
+## 현재는 +R+SK Planet+R+ 에서 일하고 있으며, 클라우드 스트리밍 서비스를 주로 하는 TV 서비스의 웹앱 개발을 담당하고 있습니다.
 
 <br />
-<br />
+
+### 제 깃헙 주소는 [www.github.com/haneulee](www.github.com/haneulee) 입니다.
+
+<br /><br />
+
+`React.js`, `HTML/CSS(SASS)`, `Javascript`

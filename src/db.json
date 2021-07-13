@@ -5,11 +5,12 @@
   },
   "aboutMe": {
     "name": "Haneul Lee",
-    "nickName": "Front End Developer",
+    "nickName": "Resume",
     "profileImg": "../assets/images/new_me.gif",
     "email": "lovesky4294@gmail.com",
     "githubUrl": "https://github.com/haneulee",
     "blogUrl": "https://blog.haneul-lee.com/",
+    "websiteUrl": "https://www.haneul-lee.com/",
     "linkedInUrl": "https://www.linkedin.com/hnlee"
   },
 
@@ -58,71 +59,67 @@
 
   "projects": [
     {
-      "imgUrl": "",
-      "githubUrl": "https://github.com/ddongule",
+      "imgUrl": "/assets/images/hancom-smart-mirror.png",
+      "githubUrl": "",
       "projectUrl": "",
-      "title": "[Team] Project Title",
-      "term": "21.02.02 v1.3.0",
-      "description": "About the project ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "tags": ["React", "Javascript", "Java", "Spring"]
-    },
-    {
-      "imgUrl": "/assets/images/example-image-light.png",
-      "githubUrl": "https://github.com/ddongule",
-      "projectUrl": "",
-      "title": "[Personal] Project Title",
-      "term": "21.01.01 v1.0.0",
-      "description": "About the project ... Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "attribution": "How you made it.. Technology that you used.. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "tags": ["React", "Javascript", "Java", "Spring"]
+      "title": "[Team] Hancom - Laboratory Project",
+      "term": "v1.0.0",
+      "description": "Created Smart Mirror with APIs (Google Search, Map, Subway, Bus) / Voice Recognizing Library / Raspberry Pi / Realtime chat service on Document Editor",
+      "attribution": "Front End Development",
+      "tags": ["Javascript", "HTML", "CSS"]
     }
   ],
 
   "timestamp": [
     {
-      "title": "Woowa Sisters",
-      "when": "21.12 ~ ",
-      "organizer": "Woowa Sisters",
+      "title": "Frontend Developer / Media Solution Group",
+      "when": "2019.02 ~ ",
+      "organizer": "SK planet",
       "tags": ["company"]
     },
-
     {
-      "title": "2021 Woowa Tech Course 3th",
-      "when": "21.02.01 - 21.11.31",
-      "organizer": "Woowa Bros",
-      "tags": ["techcourse"]
+      "title": "Software Engineer / Web Framework Team",
+      "when": "2017.01 ~ 2019.02",
+      "organizer": "Hancom GROUP",
+      "tags": ["company"]
     },
     {
-      "title": "우아한 대학교 (Woowa University)",
-      "when": "20.08.25",
-      "organizer": "University of Woowa",
-      "tags": ["graduation"]
+      "title": "Staff Researcher / WebWrite Team",
+      "when": "2013.12 ~ 2016.12",
+      "organizer": "Hancom GROUP",
+      "tags": ["company"]
     }
   ],
 
   "experiences": [
     {
-      "imgUrl": "/assets/images/example-image-dark.png",
-      "title": "[Software Engineer] Woowa Corp.",
-      "term": "21.02 - 현재 진행 중",
-      "description": "The Experiences that I have in Woowa Corp. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia ..",
-      "experienceUrl": "https://woowacourse.github.io/"
+      "imgUrl": "/assets/images/sk-btv.jpeg",
+      "title": "SK broadband BTV webapp UI",
+      "term": "2019.02 ~ ",
+      "description": "Developed web application of TV platform based on cloud streaming technology (ReactJS)",
+      "experienceUrl": "https://www.skbroadband.com/product/tv/SubMain.do"
     },
     {
-      "imgUrl": "/assets/images/example-image-light.png",
-      "title": "[Intern] Woowa Corp.",
-      "term": "19.11 - 21.03",
-      "description": "The Experiences that I have in Woowa Corp. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia .. ",
-      "experienceUrl": "https://woowacourse.github.io/"
+      "imgUrl": "/assets/images/hancom-amazon.png",
+      "title": "UI Framework",
+      "term": "2017.01 ~ 2019.02",
+      "description": "Currently Available to Amazon Workdocs Service. Built UX XML format design to customize UI / XML to HTML converter. - Improved Performance Tuning (60% improvements in UI render phase : 3s > 1s)",
+      "experienceUrl": "https://aws.amazon.com/ko/workdocs/?amazon-workdocs-whats-new.sort-by=item.additionalFields.postDateTime&amazon-workdocs-whats-new.sort-order=desc"
+    },
+    {
+      "imgUrl": "/assets/images/hancom-word.png",
+      "title": "Hancom web office (WORD)",
+      "term": "2013.12 ~ 2016.12",
+      "description": "Realtime Objects editing / Font Detecting / Keyboard Movement / Multilingual Support / Cross Browsing",
+      "experienceUrl": "https://www.hancom.com/product/productOfficeMain.do"
     }
   ],
 
   "educations": [
     {
-      "title": "공주대학교 (Kongju National University)",
+      "title": "Kongju National University",
       "term": "2009.03 - 2014.02",
-      "description": "정보통신공학부 전파공학"
+      "description": "Department of Information & Communication Engineering - Radio Science Engineering"
     }
   ]
 }

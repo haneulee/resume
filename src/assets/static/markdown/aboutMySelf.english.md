@@ -1,39 +1,23 @@
 <br />
 
-# Hi!
+# Hi! 🙂
 
 ## my Name is **haneul**
 
+<br /><br />
+
 ## I am Software Engineer
 
-## **Professional in Front-End**
-
-<br />
-
-### My Github is .. [www.github.com/haneulee](www.github.com/haneulee)
-
-<br />
-
-## - +R+Red HighLight+R+
-
-## - +G+Green HighLight+G+
-
-## - +B+Blue HighLight+B+
+## +B+Professional in Front-End+B+
 
 <br /><br />
 
-I am Good at `React.js`, `HTML/CSS(SASS)`, `Javascript`!
-
-& Check List (Black & White)
-
-- Check List (Highlight)
+## currently works for +R+SK Planet+R+, developing their web application of TV service based on cloud streaming tech.
 
 <br />
 
-1. Ordered List
-2. Ordered List
-3. Ordered List
-4. Ordered List
+### My Github is [www.github.com/haneulee](www.github.com/haneulee)
 
-<br />
-<br />
+<br /><br />
+
+`React.js`, `HTML/CSS(SASS)`, `Javascript`

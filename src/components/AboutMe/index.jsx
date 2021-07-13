@@ -11,7 +11,7 @@ import useLanguage from '../../hooks/useLanguage';
 
 const AboutMe = () => {
   const {
-    aboutMe: { profileImg, name, email, githubUrl, blogUrl, linkedInUrl },
+    aboutMe: { profileImg, name, email, githubUrl, blogUrl, websiteUrl, linkedInUrl },
   } = myData;
   const { currentLanguage } = useLanguage();
 
@@ -111,6 +111,12 @@ const AboutMe = () => {
                 <div className='detail flex'>
                   <span className='category'>Blog</span>
                   <a href={blogUrl}>{blogUrl}</a>
+                </div>
+              )}
+              {websiteUrl && (
+                <div className='detail flex'>
+                  <span className='category'>Website</span>
+                  <a href={websiteUrl}>{websiteUrl}</a>
                 </div>
               )}
               {linkedInUrl && (
