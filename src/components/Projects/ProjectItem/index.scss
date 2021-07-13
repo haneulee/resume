@@ -17,7 +17,7 @@
 
     .item__image {
       min-width: 4rem;
-      max-width: 6rem;
+      max-width: 7rem;
       border-radius: v.$border-radius;
       display: flex;
       justify-content: flex-start;
@@ -80,7 +80,7 @@
 
     .github-logo {
       display: block;
-      background-image: url('/assets/static/images/github-light.png');
+      background-image: url("/assets/static/images/github-light.png");
       background-repeat: no-repeat;
       background-size: contain;
       width: 1.5rem;
@@ -129,7 +129,7 @@
         margin: 0.5rem;
 
         .github-logo {
-          background-image: url('../../../assets/static/images/github-dark.png');
+          background-image: url("../../../assets/static/images/github-dark.png");
         }
       }
     }
@@ -172,7 +172,7 @@
         margin: 0.5rem;
 
         .github-logo {
-          background-image: url('../../../assets/static/images/github-dark.png');
+          background-image: url("../../../assets/static/images/github-dark.png");
         }
       }
     }

@@ -6,7 +6,7 @@
   "aboutMe": {
     "name": "Haneul Lee",
     "nickName": "Resume",
-    "profileImg": "../assets/images/new_me.gif",
+    "profileImg": "../resume/assets/images/new_me.gif",
     "email": "lovesky4294@gmail.com",
     "githubUrl": "https://github.com/haneulee",
     "blogUrl": "https://blog.haneul-lee.com/",
@@ -59,7 +59,7 @@
 
   "projects": [
     {
-      "imgUrl": "/assets/images/hancom-smart-mirror.png",
+      "imgUrl": "../resume/assets/images/hancom-smart-mirror.png",
       "githubUrl": "",
       "projectUrl": "",
       "title": "[Team] Hancom - Laboratory Project",
@@ -93,21 +93,21 @@
 
   "experiences": [
     {
-      "imgUrl": "/assets/images/sk-btv.jpeg",
+      "imgUrl": "../resume/assets/images/sk-btv.jpeg",
       "title": "SK broadband BTV webapp UI",
       "term": "2019.02 ~ ",
       "description": "Developed web application of TV platform based on cloud streaming technology (ReactJS)",
       "experienceUrl": "https://www.skbroadband.com/product/tv/SubMain.do"
     },
     {
-      "imgUrl": "/assets/images/hancom-amazon.png",
+      "imgUrl": "../resume/assets/images/hancom-amazon.png",
       "title": "UI Framework",
       "term": "2017.01 ~ 2019.02",
       "description": "Currently Available to Amazon Workdocs Service. Built UX XML format design to customize UI / XML to HTML converter. - Improved Performance Tuning (60% improvements in UI render phase : 3s > 1s)",
       "experienceUrl": "https://aws.amazon.com/ko/workdocs/?amazon-workdocs-whats-new.sort-by=item.additionalFields.postDateTime&amazon-workdocs-whats-new.sort-order=desc"
     },
     {
-      "imgUrl": "/assets/images/hancom-word.png",
+      "imgUrl": "../resume/assets/images/hancom-word.png",
       "title": "Hancom web office (WORD)",
       "term": "2013.12 ~ 2016.12",
       "description": "Realtime Objects editing / Font Detecting / Keyboard Movement / Multilingual Support / Cross Browsing",
