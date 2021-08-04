@@ -1,17 +1,17 @@
-import './index.scss';
+import "./index.scss";
 
-import React from 'react';
+import React from "react";
 
 const Footer = () => {
   return (
-    <div className='footer-container'>
+    <div className="footer-container">
       <a
-        target='_blank'
-        rel='noopener noreferrer'
-        href='https://github.com/ddongule/ddongule-simple-portfolio'
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://github.com/haneulee"
       >
-        <p className='footer-contents'>
-          <span className='icon'>&copy; 2021</span> ddongule-simple-portfolio
+        <p className="footer-contents">
+          <span className="icon">&copy; 2021</span> haneulee
         </p>
       </a>
     </div>

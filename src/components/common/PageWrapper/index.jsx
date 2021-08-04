@@ -1,11 +1,11 @@
-import './index.scss';
+import "./index.scss";
 
-import React, { forwardRef } from 'react';
+import React, { forwardRef } from "react";
 
 const PageWrapper = ({ children }, ref) => {
   return (
-    <div className='page' ref={ref}>
-      <div className='page-container'>{children}</div>
+    <div className="page" ref={ref}>
+      <div className="page-container">{children}</div>
     </div>
   );
 };

@@ -1,5 +1,13 @@
 {
+  "title": "이력서",
+  "name": "이하늘",
+  "skill-sets-title": "기술 스택",
   "skill-sets-professional": "많이 사용해보았으며 자신이 있는 기술",
   "skill-sets-advanced": "어느 정도 프로젝트에 적용할 수 있는 기술",
-  "skill-sets-beginner": "현재 관심이 있어 입문 수준인 기술"
+  "skill-sets-beginner": "현재 관심이 있어 입문 수준인 기술",
+  "about-me": "자기 소개",
+  "project": "프로젝트",
+  "timestamp": "타임스탬프",
+  "experience": "경력",
+  "education": "학력"
 }

@@ -1,19 +1,29 @@
-import './index.scss';
+import "./index.scss";
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from "react";
 
-import { CSSTransition } from 'react-transition-group';
-import { LANGUAGE } from '../../constants/language';
-import SubTitle from '../common/SubTitle';
-import mmd from '../../assets/mmd';
-import myData from '../../db.json';
-import useLanguage from '../../hooks/useLanguage';
+import { CSSTransition } from "react-transition-group";
+import { LANGUAGE } from "../../constants/language";
+import SubTitle from "../common/SubTitle";
+import mmd from "../../assets/mmd";
+import myData from "../../db.json";
+import useLanguage from "../../hooks/useLanguage";
+import { useTranslation } from "react-i18next";
 
 const AboutMe = () => {
   const {
-    aboutMe: { profileImg, name, email, githubUrl, blogUrl, websiteUrl, linkedInUrl },
+    aboutMe: {
+      profileImg,
+      name,
+      email,
+      githubUrl,
+      blogUrl,
+      websiteUrl,
+      linkedInUrl,
+    },
   } = myData;
   const { currentLanguage } = useLanguage();
+  const { t } = useTranslation();
 
   const [isEmailCopied, setIsEmailCopied] = useState(false);
 
@@ -32,7 +42,7 @@ const AboutMe = () => {
     }
   }, [isEmailCopied]);
 
-  const [aboutMySelfText, setAboutMySelfText] = useState('');
+  const [aboutMySelfText, setAboutMySelfText] = useState("");
 
   const aboutMyselfRef = useRef(null);
 
@@ -48,7 +58,7 @@ const AboutMe = () => {
         .catch((err) => {
           console.log(err);
 
-          return '';
+          return "";
         });
       return;
     }
@@ -64,7 +74,7 @@ const AboutMe = () => {
         .catch((err) => {
           console.log(err);
 
-          return '';
+          return "";
         });
       return;
     }
@@ -76,61 +86,61 @@ const AboutMe = () => {
 
   return (
     <>
-      <SubTitle>About Me</SubTitle>
-      <div className='about-me-container'>
-        <div className='personal-infos'>
-          <div className='profile-image'>
-            <img src={profileImg} alt={`${name}의 사진`} />
+      <SubTitle>{t("about-me")}</SubTitle>
+      <div className="about-me-container">
+        <div className="personal-infos">
+          <div className="profile-image">
+            <img src={profileImg} alt={`${t("name")}의 사진`} />
           </div>
-          <div className='detail-wrapper'>
-            <div className='details'>
-              <span className='name'>{name}</span>
-              <div className='detail flex'>
-                <span className='category'>Email</span>
-                <div id='email' onClick={copy}>
+          <div className="detail-wrapper">
+            <div className="details">
+              <span className="name">{t("name")}</span>
+              <div className="detail flex">
+                <span className="category">Email</span>
+                <div id="email" onClick={copy}>
                   {email}
                   <CSSTransition
                     nodeRef={nodeRef}
                     in={isEmailCopied}
                     timeout={300}
-                    classNames='alert'
+                    classNames="alert"
                     unmountOnExit
                     appear
                   >
-                    <span ref={nodeRef} className='alert'>
+                    <span ref={nodeRef} className="alert">
                       copied!
                     </span>
                   </CSSTransition>
                 </div>
               </div>
-              <div className='detail flex'>
-                <span className='category'>Github</span>
+              <div className="detail flex">
+                <span className="category">Github</span>
                 <a href={githubUrl}>{githubUrl}</a>
               </div>
               {blogUrl && (
-                <div className='detail flex'>
-                  <span className='category'>Blog</span>
+                <div className="detail flex">
+                  <span className="category">Blog</span>
                   <a href={blogUrl}>{blogUrl}</a>
                 </div>
               )}
               {websiteUrl && (
-                <div className='detail flex'>
-                  <span className='category'>Website</span>
+                <div className="detail flex">
+                  <span className="category">Website</span>
                   <a href={websiteUrl}>{websiteUrl}</a>
                 </div>
               )}
               {linkedInUrl && (
-                <div className='detail flex'>
-                  <span className='category'>LinkedIn</span>
+                <div className="detail flex">
+                  <span className="category">LinkedIn</span>
                   <a href={linkedInUrl}>{linkedInUrl}</a>
                 </div>
               )}
             </div>
           </div>
         </div>
-        <div className='introduce'>
-          <div className='subtitle'>Let me Introduce myself</div>
-          <div className='about' ref={aboutMyselfRef}></div>
+        <div className="introduce">
+          <div className="subtitle">Let me Introduce myself</div>
+          <div className="about" ref={aboutMyselfRef}></div>
         </div>
       </div>
     </>
