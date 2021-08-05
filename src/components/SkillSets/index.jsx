@@ -29,7 +29,7 @@ const SkillSets = () => {
             </div>
             {skillSets.map((set, index) => (
               <div className="skill-set" key={index}>
-                <div className="category">{set.category}</div>
+                <div className="category">{t(set.category)}</div>
                 <div className="items">
                   {set.skills
                     .sort((a, b) => b.level - a.level)

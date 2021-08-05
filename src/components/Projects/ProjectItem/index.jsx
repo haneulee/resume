@@ -1,40 +1,46 @@
-import './index.scss';
+import "./index.scss";
 
-import React from 'react';
-import noImage from '../../../assets/static/images/no-image.png'
+import React from "react";
+import noImage from "../../../assets/static/images/no-image.png";
+import { useTranslation } from "react-i18next";
 
 const ProjectItem = ({
   title,
   term,
-  imgUrl = '../../../assets/static/images/no-image.png',
+  imgUrl = "../../../assets/static/images/no-image.png",
   tags,
   description,
   attribution,
   projectUrl,
   githubUrl,
 }) => {
-  const addDefaultSrc=({target}) => (target.src = noImage)
+  const addDefaultSrc = ({ target }) => (target.src = noImage);
+  const { t } = useTranslation();
 
   return (
-    <div className='project'>
+    <div className="project">
       <a
-        className='project__details'
+        className="project__details"
         href={projectUrl}
-        target='_blank'
-        rel='noopener noreferrer'
+        target="_blank"
+        rel="noopener noreferrer"
       >
-        <div className='item__image'>
-          <img src={imgUrl} alt={`${title} logo 이미지`} onError={addDefaultSrc} />
+        <div className="item__image">
+          <img
+            src={imgUrl}
+            alt={`${title} logo 이미지`}
+            onError={addDefaultSrc}
+          />
         </div>
-        <div className='item__details'>
-          <div className='title'>
-            {title} <span className='term'>({term})</span>
+        <div className="item__details">
+          <div className="title">
+            {t(title)} <span className="term">({term})</span>
           </div>
-          <div className='description'>{description}</div>
-          <div className='attribution'>{attribution}</div>
-          <div className='tags'>
+          <div className="description">{t(description)}</div>
+          <div className="attribution">{t(attribution)}</div>
+          <div className="tags">
             {tags.map((tag, index) => (
-              <div key={index} className='tag'>
+              <div key={index} className="tag">
                 {tag}
               </div>
             ))}
@@ -42,9 +48,9 @@ const ProjectItem = ({
         </div>
       </a>
       {githubUrl && (
-        <div className='project__links'>
+        <div className="project__links">
           <a href={githubUrl}>
-            <div className='github-logo' />
+            <div className="github-logo" />
           </a>
         </div>
       )}

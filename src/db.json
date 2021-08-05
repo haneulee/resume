@@ -16,7 +16,7 @@
 
   "skillSets": [
     {
-      "category": "Front End Skills",
+      "category": "front-end-skills",
       "skills": [
         { "skill": "Javascript", "level": "5" },
         { "skill": "HTML/CSS(SASS)", "level": "5" },
@@ -25,21 +25,18 @@
       ]
     },
     {
-      "category": "Back End Skills",
+      "category": "back-end-skills",
       "skills": [
         { "skill": "Python", "level": "3" },
         { "skill": "Django", "level": "2" },
         { "skill": "Django-Rest-Framework", "level": "1" },
-        { "skill": "Java", "level": "5" },
-        { "skill": "Spring", "level": "5" },
-        { "skill": "Ruby", "level": "4" },
-        { "skill": "Ruby-on-Rails", "level": "5" }
+        { "skill": "Java", "level": "3" }
       ]
     },
     {
-      "category": "Collaboration Skills",
+      "category": "collaboration-skills",
       "skills": [
-        { "skill": "Git/Github" },
+        { "skill": "Git/Github/Gitlab" },
         { "skill": "Notion" },
         { "skill": "Slack" },
         { "skill": "Figma" }
@@ -62,64 +59,78 @@
       "imgUrl": "../resume/assets/images/hancom-smart-mirror.png",
       "githubUrl": "",
       "projectUrl": "",
-      "title": "[Team] Hancom - Laboratory Project",
+      "title": "hancom-lab-title",
       "term": "v1.0.0",
-      "description": "Created Smart Mirror with APIs (Google Search, Map, Subway, Bus) / Voice Recognizing Library / Raspberry Pi / Realtime chat service on Document Editor",
-      "attribution": "Front End Development",
+      "description": "hancom-lab-des",
+      "attribution": "hancom-lab-attr",
       "tags": ["Javascript", "HTML", "CSS"]
     }
   ],
 
   "timestamp": [
     {
-      "title": "Frontend Developer / Media Solution Group",
+      "title": "sk-team",
       "when": "2019.02 ~ ",
-      "organizer": "SK planet",
+      "organizer": "sk-company",
       "tags": ["company"]
     },
     {
-      "title": "Software Engineer / Web Framework Team",
+      "title": "hancom-team-2",
       "when": "2017.01 ~ 2019.02",
-      "organizer": "Hancom GROUP",
+      "organizer": "hancom-company",
       "tags": ["company"]
     },
     {
-      "title": "Staff Researcher / WebWrite Team",
+      "title": "hancom-team-1",
       "when": "2013.12 ~ 2016.12",
-      "organizer": "Hancom GROUP",
+      "organizer": "hancom-company",
       "tags": ["company"]
     }
   ],
 
   "experiences": [
     {
+      "imgUrl": "../resume/assets/images/apple-tv.png",
+      "title": "skb-appletv",
+      "term": "2021.02 ~ ",
+      "description": "skb-appletv-des",
+      "experienceUrl": ""
+    },
+    {
+      "imgUrl": "../resume/assets/images/testauto.png",
+      "title": "skb-testauto",
+      "term": "2020.03 ~ ",
+      "description": "skb-testauto-des",
+      "experienceUrl": ""
+    },
+    {
       "imgUrl": "../resume/assets/images/sk-btv.jpeg",
-      "title": "SK broadband BTV webapp UI",
-      "term": "2019.02 ~ ",
-      "description": "Developed web application of TV platform based on cloud streaming technology (ReactJS)",
+      "title": "skb-g2",
+      "term": "2019.02 ~ 2020.02",
+      "description": "skb-g2-des",
       "experienceUrl": "https://www.skbroadband.com/product/tv/SubMain.do"
     },
     {
       "imgUrl": "../resume/assets/images/hancom-amazon.png",
-      "title": "UI Framework",
+      "title": "ui-framework",
       "term": "2017.01 ~ 2019.02",
-      "description": "Currently Available to Amazon Workdocs Service. Built UX XML format design to customize UI / XML to HTML converter. - Improved Performance Tuning (60% improvements in UI render phase : 3s > 1s)",
+      "description": "ui-framework-des",
       "experienceUrl": "https://aws.amazon.com/ko/workdocs/?amazon-workdocs-whats-new.sort-by=item.additionalFields.postDateTime&amazon-workdocs-whats-new.sort-order=desc"
     },
     {
       "imgUrl": "../resume/assets/images/hancom-word.png",
-      "title": "Hancom web office (WORD)",
+      "title": "hancom",
       "term": "2013.12 ~ 2016.12",
-      "description": "Realtime Objects editing / Font Detecting / Keyboard Movement / Multilingual Support / Cross Browsing",
+      "description": "hancom-des",
       "experienceUrl": "https://www.hancom.com/product/productOfficeMain.do"
     }
   ],
 
   "educations": [
     {
-      "title": "Kongju National University",
+      "title": "uni-title",
       "term": "2009.03 - 2014.02",
-      "description": "Department of Information & Communication Engineering - Radio Science Engineering"
+      "description": "uni-major"
     }
   ]
 }
